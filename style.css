@@ -5,6 +5,9 @@ body{
 h1{
     font-size:70px ;
     }
+    h2{
+        font-size:50px
+    }
     .orange-color{
         color: orange;
     }
@@ -35,4 +38,27 @@ h1{
         background-image: url(images/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
+    }
+    .half-width2{
+        width: 50%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 20px;
+        box-shadow: 10px 10px 30px yellowgreen;
+        padding-left: 10;
+        border-radius: 10px;
+        
+    }
+    .experience-area{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    #admin-support{
+        border-left: 7px solid;
+        border-image: linear-gradient (blue, cyan);
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
     }
